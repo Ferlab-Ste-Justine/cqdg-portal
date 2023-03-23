@@ -18,7 +18,7 @@
         "apollo-link-rest": "^0.8.0-beta.0",
         "axios": "^0.21.1",
         "classnames": "^2.2.6",
-        "dateformat": "^4.5.1",
+        "dateformat": "^5.0.0",
         "file-saver": "^2.0.5",
         "filesize": "^6.1.0",
         "graphql": "^15.5.0",
@@ -72,7 +72,7 @@
     },
     "devDependencies": {
         "@types/classnames": "^2.2.11",
-        "@types/dateformat": "^3.0.1",
+        "@types/dateformat": "^5.0.0",
         "@types/file-saver": "^2.0.1",
         "@types/graphql": "^14.5.0",
         "@types/jest": "^26.0.20",
