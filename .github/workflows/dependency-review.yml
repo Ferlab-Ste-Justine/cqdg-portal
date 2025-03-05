@@ -12,6 +12,6 @@ jobs:
     - name: Run dependency review
       uses: actions/dependency-review-action@v4
       with:
-        repo-token: ${{ secrets.PAT_DEPENDABOT }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         fail-on-severity: high
         fail-on-scopes: runtime
