@@ -5,7 +5,7 @@ on: [pull_request]
 jobs:
   build:
     name: Install Dependencies
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Check out source code
         uses: actions/checkout@v2
@@ -22,7 +22,7 @@ jobs:
         run: npm install
   linter:
     name: Linter
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Check out source code
